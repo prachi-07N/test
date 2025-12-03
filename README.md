@@ -1,4 +1,4 @@
-# Explore Sydney Website
+# 🌏 Explore Sydney Website
 
 This is a simple multi-page website about Sydney, Australia.  
 It showcases top tourist attractions, food, and culture of Sydney.  
@@ -6,7 +6,7 @@ Built using **HTML** and **CSS** and hosted on **GitHub Pages**.
 
 ---
 
-# Pages
+## 🗂 Pages
 
 - **Home** – Welcome page with hero image and introduction to Sydney.  
 - **Places to Visit** – Top attractions in Sydney with cards linking to detailed pages.  
@@ -17,13 +17,13 @@ Built using **HTML** and **CSS** and hosted on **GitHub Pages**.
 
 ---
 
-# Live Website
+## 🌐 Live Website
 
 [Visit the website](https://prachi-07n.github.io/test/)
 
 ---
 
-# How to Use
+## ⚡ How to Use
 
 - Click the links in the **navigation bar** to explore different pages.  
 - Click on any attraction card in the “Places to Visit” page to see detailed information.  
@@ -31,7 +31,7 @@ Built using **HTML** and **CSS** and hosted on **GitHub Pages**.
 
 ---
 
-# Features
+## ✨ Features
 
 - Fully responsive layout  
 - Multi-page navigation  
@@ -40,7 +40,7 @@ Built using **HTML** and **CSS** and hosted on **GitHub Pages**.
 
 ---
 
-# Tech Used
+## 🛠 Tech Used
 
 - HTML  
 - CSS  
