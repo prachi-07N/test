@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> harbour bridge </title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #e3f2fd, #ffffff);
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #0077c2;
+            padding: 15px 40px;
+        }
+
+        .logo {
+            color: #fff;
+            margin: 0;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .navbar ul li a:hover,
+        .navbar ul li .active {
+            text-decoration: underline;
+        }
+
+        /* Page Content */
+        .content {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        .content h1 {
+            color: #0077c2;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 17px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Button */
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #0077c2;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #005a8c;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2 class="logo">Explore Sydney</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="places.html">Places to Visit</a></li>
+            <li><a href="food.html">Food & Culture</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h1>Sydney Harbour Bridge</h1>
+        <p>
+            The Sydney Harbour Bridge is a steel arch bridge connecting the Sydney central business district 
+            (CBD) and the North Shore. Known locally as “The Coathanger”, it is one of Sydney’s most recognized landmarks.
+        </p>
+
+        <p>
+            Visitors can climb the bridge, walk or cycle across it, or enjoy stunning views from the nearby lookout points. 
+            It’s an essential part of Sydney’s skyline and a must-visit attraction.
+        </p>
+
+        <a href="places.html" class="btn">⬅ Back to Places</a>
+    </div>
+
+</body>
+</html>
