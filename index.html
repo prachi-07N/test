@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sydney </title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* Basic Styling */
+        body {
+        
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #ffffff;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #004aad;
+            padding: 15px 40px;
+        }
+
+        .logo {
+            color: #fff;
+            margin: 0;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .navbar ul li a:hover,
+        .navbar ul li .active {
+            text-decoration: underline;
+            color: #ffce00;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('https://images.unsplash.com/photo-1506084868230-bb9d95c24759') 
+                        no-repeat center center/cover;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-text {
+            color: white;
+            text-align: center;
+            background: rgba(0,0,0,0.5);
+            padding: 10px 40px;
+            border-radius: 10px;
+        }
+
+        /* Updated Button Class */
+        .explore-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #ffce00;
+            color: black;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .explore-button:hover {
+            background: #ffa600;
+        }
+
+        /* About Section */
+        .about {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .external-link {
+            display: inline-block;
+            margin-top: 10px;
+            color: #004aad;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .external-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <h2 class="logo">Explore Sydney</h2>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="places.html">Places to Visit</a></li>
+            <li><a href="food.html">Food & Culture</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-text">
+            <h1>Welcome to Sydney</h1>
+            <p>The Harbour City of Australia</p>
+            <a href="places.html" class="explore-button">Explore Places</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>Why Visit Sydney?</h2>
+        <p>
+            Sydney is one of the most beautiful and vibrant cities in the world.
+            From the iconic Opera House to stunning beaches and cultural hotspots,
+            the city offers an unforgettable experience for every traveler.
+        </p>
+        <a href="https://en.wikipedia.org/wiki/Sydney" target="_blank" class="external-link">
+            Read About Sydney on Wikipedia →
+        </a>
+    </section>
+
+</body>
+</html>
